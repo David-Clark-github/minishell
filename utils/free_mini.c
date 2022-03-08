@@ -6,7 +6,7 @@
 /*   By: david <dclark@student.42.fr>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/26 12:36:28 by david             #+#    #+#             */
-/*   Updated: 2022/03/08 12:04:43 by dclark           ###   ########.fr       */
+/*   Updated: 2022/03/08 12:50:14 by dclark           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,8 @@ void	free_mini(t_mini *mini)
 	/*
 	if (mini->tab_separ != NULL)
 		ft_freetab(mini->tab_separ);
-	*/
 	if (mini->list != NULL)
-		return ;
+		//ft_clearlst(&mini->list);
+	*/
+	return;
 }

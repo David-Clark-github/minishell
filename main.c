@@ -6,7 +6,7 @@
 /*   By: dclark <dclark@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/15 13:28:08 by dclark            #+#    #+#             */
-/*   Updated: 2022/02/15 16:25:22 by dclark           ###   ########.fr       */
+/*   Updated: 2022/03/08 12:48:33 by dclark           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,7 @@ int	main(int ac, char **av, char **ev)
 				ft_env(mini->cp_ev, 1);
 			if (mini->er_num != 0)
 				printf("er_num = %d\n", mini->er_num);
+			ft_clearlst(&mini->list);
 			ft_freetab(mini->tab_separ);
 			/*
 			ft_freetab(mini.tab_separ);

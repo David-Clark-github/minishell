@@ -6,7 +6,7 @@
 /*   By: dclark <dclark@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/06 12:59:08 by dclark            #+#    #+#             */
-/*   Updated: 2022/02/16 12:11:04 by david            ###   ########.fr       */
+/*   Updated: 2022/03/08 12:43:56 by dclark           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -116,6 +116,7 @@ void	free_mini(t_mini *mini);
 int		ft_checkredir(char c);
 int		ft_checkquote(char c);
 int		ft_checkcara(char c, char *str);
+void	ft_clearlst(t_lst **lst);
 t_mini	*get_mini(void);
 
 //DO NOT USE THE NAME "tab" FOR PARAMETER NAME
